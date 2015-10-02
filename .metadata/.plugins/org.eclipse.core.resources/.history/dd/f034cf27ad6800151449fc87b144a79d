@@ -1,0 +1,17 @@
+package test;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class test {
+	private Set<String> permissions;
+	public  void main(String args[]){
+		
+		te();
+	}
+	public void te(){
+		if(this.permissions == null)
+			this.permissions = new HashSet<>();
+			this.permissions.add("test");
+	}
+}

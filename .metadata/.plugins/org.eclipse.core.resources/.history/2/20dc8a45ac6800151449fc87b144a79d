@@ -1,0 +1,13 @@
+package test;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class test {
+	public static void main(String args[]){
+		Set<String> permissions;
+		if(permissions = null)
+		permissions = new HashSet<>();
+		permissions.add("test");
+	}
+}
